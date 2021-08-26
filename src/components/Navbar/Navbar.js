@@ -7,10 +7,10 @@ function Navbar() {
     return (
         <div className="navbar">
             <div className="navbar-container container">
-                {/* <Link to='/' className="navbar-logo" >
+                <Link to='/' className="navbar-logo" >
                     <MdFingerprint className="navbar-icon"/>
                     Zubi
-                </Link> */}
+                </Link>
                 <a href="#" >
                     <MdFingerprint />
                     Zubi

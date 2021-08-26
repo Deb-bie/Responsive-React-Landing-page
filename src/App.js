@@ -4,18 +4,18 @@ import Navbar from './components/Navbar/Navbar';
 
 function App() {
   return (
-    // <Router>
-    //   <Navbar />
-    //   <Switch>
-    //     <Route path='/' />
-    //   </Switch>
-    // </Router>
+    <Router>
+      <Navbar />
+      <Switch>
+        <Route path='/' />
+      </Switch>
+    </Router>
 
 
 
-    <div className="App">
-      <Navbar /> 
-    </div>
+    // <div className="App">
+    //   <Navbar /> 
+    // </div>
   );
 }
 
