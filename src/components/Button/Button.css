@@ -1,0 +1,32 @@
+button{
+    border-radius: 50px;
+    /* background: [rimp1Bary] * (primary )'#01BF71' , '#010606'; */
+    background: #000;
+    white-space: nowrap;
+    color: #866000;
+    padding: 14px 48px;
+    font-size: 20px;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+    outline: none;
+    border: transparent;
+}
+
+button:hover{
+    transition: all 0.2s ease-in-out;
+    background: #fff;
+}
+
+
+
+
+
+
+
+
+
+

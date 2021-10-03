@@ -52,8 +52,8 @@ function Navbar() {
                         </li>
 
                         <div className="nav-button">
-                        <Link to='/signin' className="nav-btn-link">Sign In</Link>
-                    </div>
+                            <Link to='/signin' className="nav-btn-link">Sign In</Link>
+                        </div>
 
                     </ul>
 
