@@ -3,7 +3,9 @@ import { FaArrowRight } from 'react-icons/fa';
 import { MdArrowForward } from 'react-icons/md';
 import video from '../../videos/video.mp4';
 import './Home.css';
-import '../../Button/Button.css';
+import { Button } from '../../Button/Button';
+// import '../../Button/Button.css';
+
 
 function Home() {
 
@@ -26,9 +28,16 @@ function Home() {
                     your next payment.
                 </p>
                 <div className="button">
-                    <button to='signup' onMouseEnter={Hover} onMouseLeave={Hover}>
+                    <Button 
+                        to='signup' 
+                        onMouseEnter={Hover} 
+                        onMouseLeave={Hover}
+                        primary='true'
+                        dark='true'>
+
                         Get started {hover ? <MdArrowForward /> : <FaArrowRight />}
-                    </button>
+                    
+                    </Button>
                 </div>
             </div>
             
