@@ -4,6 +4,9 @@ import { MdArrowForward } from 'react-icons/md';
 import video from '../../videos/video.mp4';
 import './Home.css';
 import { Button } from '../../Button/Button';
+import Info from '../Info/Info';
+import { data } from '../Info/Data';
+// import { Button } from 'react-scroll';
 // import '../../Button/Button.css';
 
 
@@ -16,6 +19,7 @@ function Home() {
 
 
     return (
+        <>
         <div className="main-container" id="home">
             <div className="main-background">
                 <video className="video-background" autoPlay loop muted src={video} typeof="video/mp4" />
@@ -42,6 +46,10 @@ function Home() {
             </div>
             
         </div>
+
+        <Info {...data}/>
+
+        </>
     )
 }
 
